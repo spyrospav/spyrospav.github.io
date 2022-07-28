@@ -25,7 +25,9 @@ accent_color: blue
 
 favicon: /assets/favicon-16x16.ico
 
-font: Helvetica
+font: Source Sans Pro, sans-serif
+
+google_fonts: Source+Sans+Pro
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spyrospav.github.io" # the base hostname & protocol for your site, e.g. http://example.com
