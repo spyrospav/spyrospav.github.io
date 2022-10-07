@@ -38,7 +38,7 @@ menu:
   - title: About
     url: /
   - title: Resume
-    url: /assets/cv.pdf
+    url: /assets/cv/main.pdf
 
 # Build settings
 markdown: kramdown
