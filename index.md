@@ -7,7 +7,7 @@ title: About
 font-size:
 ---
 
-Hi! I'm Spyros Pavlatos and I am an first year PhD student at University of Pennsylvania!
+Hi! I'm Spyros Pavlatos and I am an first year PhD student at University of Pennsylvania and proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
 {:.lead}
 
 My research interests are focused around Programming Languages and Distributed Systems. More specifically, I am interested in verification techniques for distributed applications.
