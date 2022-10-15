@@ -42,11 +42,14 @@ menu:
 
 # Build settings
 markdown: kramdown
-#theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-seo-tag
+  - jekyll-include-cache
 
+kramdown:
+  math_engine:         katex
+  math_engine_opts:    {}
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

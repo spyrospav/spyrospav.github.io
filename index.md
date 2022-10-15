@@ -4,7 +4,7 @@
 
 layout: about
 title: About
-font-size:
+cover: true
 ---
 
 Hi! I'm Spyros Pavlatos and I am an first year PhD student at University of Pennsylvania and proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
