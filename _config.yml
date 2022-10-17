@@ -32,7 +32,7 @@ google_fonts: Source+Sans+Pro
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spyrospav.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SpyrosPavlatos
-github_username:  spyrospav
+github:  spyrospav
 
 menu:
   - title: About
