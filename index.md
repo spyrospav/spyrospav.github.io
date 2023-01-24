@@ -17,7 +17,7 @@ Before joining Penn, I completed my undergraduate studies at National Technical 
 {:.lead}
 
 # News
-- <span style="color:blue">[Jan. 23] </span> I am attending POPL'23 as a student volunteer!
+- <span style="color:blue">[Jan. 23] </span> I attended POPL'23 as a student volunteer!
 - <span style="color:blue">[Jul. 22] </span> I successfully presented my undergraduate [thesis](http://artemis.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/18415/1/thesis.pdf).
 - <span style="color:blue">[Apr. 22] </span> I will be starting my PhD at University of Pennsylvania at fall!
 {:.larger}
