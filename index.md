@@ -11,7 +11,7 @@ Hi! I'm Spyros Pavlatos and I am an first year PhD student at University of Penn
 {:.lead}
 
 My research interests are focused around Programming Languages and Distributed Systems. More specifically, I am interested in verification techniques and programming abstractions for distributed applications.
-{:.lead$$}
+{:.lead}
 
 Before joining Penn, I completed my undergraduate studies at National Technical University of Athens under the supervision of [Kostis Sagonas](https://user.it.uu.se/~kostis/). My undergraduate thesis was focused on developing a test suite for model checking Persistent Memory programs.
 {:.lead}
