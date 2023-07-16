@@ -27,4 +27,5 @@ Before joining Penn, I completed my undergraduate studies at National Technical 
 
 - [CIS 5470 Software Analysis - Fall '23](https://software-analysis-class.org/) University of Pennsylvania - Teaching Assistant
 - [Programming Techniques - Spring '21](https://courses.softlab.ntua.gr/progtech/2021a/) National Technical University of Athens - Lab Assistant
-- [Intro to Programming - Fall '20](https://courses.softlab.ntua.gr/progintro/2020b/) National Technical University of Athens - Lab Assistant 
+- [Intro to Programming - Fall '20](https://courses.softlab.ntua.gr/progintro/2020b/) National Technical University of Athens - Lab Assistant
+{:.larger}
