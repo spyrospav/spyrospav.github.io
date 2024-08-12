@@ -7,10 +7,10 @@ title: About
 cover: true
 ---
 
-Hi! I'm Spyros Pavlatos and I am a second year PhD student at University of Pennsylvania advised by [Rajeev Alur](https://vincen.tl/). I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
+Hi! I'm Spyros Pavlatos and I am a second year PhD student at University of Pennsylvania advised by [Vincent Liu](https://vincen.tl/). I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
 {:.lead}
 
-My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL techniques 
+My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL and Compilers techniques to speed up applications on cloud platforms.
 {:.lead}
 
 Before joining Penn, I completed my undergraduate studies at National Technical University of Athens under the supervision of [Kostis Sagonas](https://user.it.uu.se/~kostis/). My undergraduate thesis was focused on developing a test suite for model checking Persistent Memory programs.
