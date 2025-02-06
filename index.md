@@ -26,7 +26,7 @@ Before joining Penn, I completed my undergraduate studies at National Technical 
 # Teaching
 
 - [CIS 3410/7000: Compilers - Spring '24](https://www.seas.upenn.edu/~cis3410/current/) University of Pennsylvania - Teaching Assistant
-- [CIS 5470: Software Analysis - Fall '23](https://software-analysis-class.org/) University of Pennsylvania - Teaching Assistant
+- [CIS 5470: Software Analysis - Fall '23](https://online.seas.upenn.edu/courses/cis-547-software-analysis/) University of Pennsylvania - Teaching Assistant
 - [Programming Techniques - Spring '21](https://courses.softlab.ntua.gr/progtech/2021a/) National Technical University of Athens - Lab Assistant
 - [Intro to Programming - Fall '20](https://courses.softlab.ntua.gr/progintro/2020b/) National Technical University of Athens - Lab Assistant
 {:.larger}
