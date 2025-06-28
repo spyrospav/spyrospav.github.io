@@ -10,15 +10,15 @@ cover: true
 Hi! I'm Spyros Pavlatos and I am a second year PhD student at University of Pennsylvania advised by [Vincent Liu](https://vincen.tl/). I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
 {:.lead}
 
-My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL and Compilers techniques to speed up applications on cloud platforms.
+My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL and Compilers techniques to speed up applications on serverless platforms, while maintaining correctness. 
 {:.lead}
 
 Before joining Penn, I completed my undergraduate studies at National Technical University of Athens under the supervision of [Kostis Sagonas](https://user.it.uu.se/~kostis/). My undergraduate thesis was focused on developing a test suite for model checking Persistent Memory programs.
 {:.lead}
 
 # News
-- <span style="color:green">[Apr. 24] </span> Our paper "𝝀-trim: Optimizing Function Initialization in Serverless Applications
-With Cost-driven Debloating" was accepted at ASPLOS'26! Pre-print coming soon!
+- <span style="color:green">[Apr. 2455] </span> Our paper "𝝀-trim: Optimizing Function Initialization in Serverless Applications
+With Cost-driven Debloating" was accepted at ASPLOS'25! Pre-print coming soon!
 - <span style="color:green">[Apr. 24] </span> Our paper ["MuCache: A General Framework for Caching in Microservice Graphs"](https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran) was accepted at NSDI'24!
 - <span style="color:blue">[May. 23] </span> I attended [SSFT23](https://fm.csl.sri.com/SSFT23/) (Twelfth Summer School on Formal Techniques)!
 - <span style="color:blue">[Jan. 23] </span> I attended POPL'23 as a student volunteer!
