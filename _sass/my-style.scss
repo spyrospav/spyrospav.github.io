@@ -1,0 +1,18 @@
+.publications-content {
+  a[href],
+  a[href]:visited {
+    color: orange;
+    /* This removes the gradient-based underline */
+    background-image: none;
+
+    /* Optional: Remove all underlines */
+    text-decoration: none;
+  }
+
+
+  /* 2. Remove the icon that appears after links */
+  a[href]::after,
+  a[target="_blank"]::after {
+    display: none !important;
+  }
+}

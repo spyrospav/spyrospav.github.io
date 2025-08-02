@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Spyros Pavlatos
-email: pavlatos@seas.upenn.edu
 description: >- # this means to ignore newlines until "baseurl:"
   CIS PhD student at University of Pennsylvania
 
@@ -31,14 +30,14 @@ google_fonts: Source+Sans+Pro
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spyrospav.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: SpyrosPavlatos
-github:  spyrospav
 
 menu:
   - title: About
     url: /
   - title: Resume
     url: /assets/cv/main.pdf
+  - title: Publications
+    url: /publications/
 
 # Build settings
 markdown: kramdown
@@ -47,9 +46,16 @@ plugins:
   - jekyll-seo-tag
   - jekyll-include-cache
 
+hydejack:
+  dark_mode:
+    dynamic: true
+    always:  false
+
 kramdown:
   math_engine:         katex
   math_engine_opts:    {}
+
+permalink: pretty
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

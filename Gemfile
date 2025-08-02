@@ -14,7 +14,7 @@ gem "jekyll-theme-hydejack"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem "github-pages", "~> 227", group: :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 gem "jekyll-include-cache", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
@@ -45,3 +45,6 @@ gem "webrick", "~> 1.7"
 # gem "jekyll-paginate"
 
 gem "kramdown-math-katex"
+
+gem "liquid", "~> 4.0.4"
+gem "bigdecimal", "~> 3.2.2"
