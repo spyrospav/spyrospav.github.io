@@ -2,7 +2,7 @@
 
 layout: pubs
 title: Publications
-content_class: publications-content
+content_class: custom-content
 
 ---
 
@@ -31,10 +31,11 @@ content_class: publications-content
     {% if pub.links.size > 0 %}
       <br>
       {% for link in pub.links %}
-        <a href="{{ link.url }}">{{ link.name }}</a>
+        [<a href="{{ link.url }}">{{ link.name }}</a>]
       {% endfor %}
     {% endif %}
   </li>
 {% endfor %}
 </ul>
+{:.larger}
 {% endfor %}
