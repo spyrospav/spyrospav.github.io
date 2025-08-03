@@ -9,7 +9,7 @@ content_class: custom-content
 
 ---
 
-Hi! I'm Spyros Pavlatos and I am a fourth year PhD student at University of Pennsylvania advised by <a href="{{ site.data.authors.kostis_sagonas.url }}">{{ "Vincent Liu" }}</a>. I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
+Hi! I'm Spyros Pavlatos and I am a fourth year PhD student at University of Pennsylvania advised by <a href="{{ site.data.authors.vincent_liu.url }}">{{ "Vincent Liu" }}</a>. I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
 {:.lead}
 
 My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL and Compiler techniques to speed up applications on serverless platforms, while maintaining correctness. 
