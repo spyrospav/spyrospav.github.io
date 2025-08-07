@@ -10,7 +10,7 @@
     - spyros_pavlatos
   conference: "ASPLOS'25"
   links:
-    - name: Pre-print
+    - name: Paper
       url: https://dl.acm.org/doi/10.1145/3676642.3736129
     - name: Code
       url: https://github.com/eniac/lambda-trim
