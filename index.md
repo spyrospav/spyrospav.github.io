@@ -19,12 +19,12 @@ Before joining Penn, I completed my undergraduate studies at National Technical 
 {:.lead}
 
 # News
+- <span style="color:blue">[Aug. 25] </span> I received the Gerondelis Foundation Graduate Scholarship!.
 - <span style="color:purple">[May. 25] </span> I'm spending the summer as an intern at AWS Redshift.
 - <span style="color:green">[Apr. 25] </span> Our paper ["𝝀-trim: Optimizing Function Initialization in Serverless Applications
 With Cost-driven Debloating"](/assets/preprints/lambda-trim.pdf) was accepted at ASPLOS'25!
 - <span style="color:green">[Apr. 24] </span> Our paper ["MuCache: A General Framework for Caching in Microservice Graphs"](https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran) was accepted at NSDI'24!
 - <span style="color:blue">[May. 23] </span> I attended [SSFT23](https://fm.csl.sri.com/SSFT23/) (Twelfth Summer School on Formal Techniques)!
-- <span style="color:blue">[Jan. 23] </span> I attended POPL'23 as a student volunteer!
 {:.larger}
 
 # Teaching
