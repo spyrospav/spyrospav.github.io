@@ -192,7 +192,19 @@ a { color: inherit; }
 
 @media (max-width: 760px) {
   .layout { grid-template-columns: 1fr; }
-  .sidebar-in { position: static; padding: 28px 16px; }
+  /* Stay positioned so the content paints above the .sidebar::before overlay. */
+  .sidebar-in {
+    position: relative;
+    z-index: 1;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 14px 16px;
+    padding: 20px 16px;
+  }
+  .avatar img { width: 64px; height: 64px; }
+  .sidebar .name { font-size: 1.3rem; }
+  .sidebar nav, .sidebar .email, .sidebar .social { grid-column: 1 / -1; }
+  .sidebar nav { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 0; padding-top: 12px; }
   .content { padding: 28px 16px 48px; }
   .pub { grid-template-columns: 1fr; gap: 4px; }
   .cover h1 { font-size: 2rem; }
