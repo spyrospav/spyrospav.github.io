@@ -1,3 +1,20 @@
+- year: 2026
+  status: under_submission
+  title: 'FullStackArena: Evaluating Browser Agents in Dynamic Full-Stack Environments'
+  authors:
+    - jiaheng_lu
+    - xian_wang
+    - shrishti_roy
+    - colin_zhao
+    - sidharth_sankhe
+    - chuyue_wang
+    - xuting_liu
+    - spyros_pavlatos
+    - linh_phan
+    - vincent_liu
+  conference: "Under submission"
+  links: []
+
 - year: 2025
   title: 'λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating'
   authors:

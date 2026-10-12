@@ -1,0 +1,22 @@
+<li>
+    <strong>{{ include.pub.title }}</strong><br>
+    {% for author_id in include.pub.authors %}
+      {%- assign author = site.data.authors[author_id] -%}
+      {%- if author_id == 'spyros_pavlatos' -%}
+        <strong>{{ author.name }}</strong>
+      {%- elsif author.url -%}
+        <a href="{{ author.url }}">{{ author.name }}</a>
+      {%- else -%}
+        {{ author.name }}
+      {%- endif -%}
+      {%- if include.pub.equal_contribution contains author_id -%}<sup>*</sup>{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless %}
+    {%- endfor -%}.<br>
+    <em>{{ include.pub.conference }}</em>
+    {% if include.pub.links.size > 0 %}
+      <br>
+      {% for link in include.pub.links %}
+        [<a href="{{ link.url }}">{{ link.name }}</a>]
+      {% endfor %}
+    {% endif %}
+  </li>

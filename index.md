@@ -9,7 +9,7 @@ content_class: custom-content
 
 ---
 
-Hi! I'm Spyros Pavlatos and I am a fourth year PhD student at University of Pennsylvania advised by <a href="{{ site.data.authors.vincent_liu.url }}">{{ "Vincent Liu" }}</a>. I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
+Hi! I'm Spyros Pavlatos and I am a fifth year PhD student at University of Pennsylvania advised by <a href="{{ site.data.authors.vincent_liu.url }}">{{ "Vincent Liu" }}</a>. I'm also a proud member of [PLClub](https://www.cis.upenn.edu/~plclub/)!
 {:.lead}
 
 My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL and Compiler techniques to speed up applications on serverless platforms, while maintaining correctness. 
@@ -19,10 +19,11 @@ Before joining Penn, I completed my undergraduate studies at National Technical 
 {:.lead}
 
 # News
-- <span style="color:blue">[Aug. 25] </span> I received the Gerondelis Foundation Graduate Scholarship!.
+- <span style="color:purple">[May. 26] </span> I'm spending the summer as an intern at Databricks, working on the Photon query engine.
+- <span style="color:blue">[Aug. 25] </span> I received the Gerondelis Foundation Graduate Scholarship!
 - <span style="color:purple">[May. 25] </span> I'm spending the summer as an intern at AWS Redshift.
 - <span style="color:green">[Apr. 25] </span> Our paper ["𝝀-trim: Optimizing Function Initialization in Serverless Applications
-With Cost-driven Debloating"](/assets/preprints/lambda-trim.pdf) was accepted at ASPLOS'25!
+With Cost-driven Debloating"](https://dl.acm.org/doi/10.1145/3676642.3736129) was accepted at ASPLOS'25!
 - <span style="color:green">[Apr. 24] </span> Our paper ["MuCache: A General Framework for Caching in Microservice Graphs"](https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran) was accepted at NSDI'24!
 - <span style="color:blue">[May. 23] </span> I attended [SSFT23](https://fm.csl.sri.com/SSFT23/) (Twelfth Summer School on Formal Techniques)!
 {:.larger}
