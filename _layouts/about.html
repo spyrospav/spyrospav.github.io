@@ -1,48 +1,41 @@
 ---
-# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-layout: base
+layout: page
 ---
+<section>
+  <h2>About</h2>
+  {{ content }}
+</section>
 
-<article class="page mb6" role="article">
-  {% if content contains "<!--author-->" %}
-    {% assign plugins = site.plugins | default:site.gems %}
-    {% assign author = site.data.authors[page.author] | default:site.data.authors.first[1] | default:site.author %}
-    {% capture author_x %}
-      {% if author.picture %}
-        {% include_cached components/hy-img.html class="avatar" img=author.picture alt=author.name %}
-      {% elsif plugins contains 'jekyll-avatar' %}
-        {% assign avatar = author.social.github | default:author.github.username | default:author.github %}
-        {% include components/avatar-tag.html user=avatar %}
-      {% endif %}
+<section>
+  <h2>News</h2>
+  <ul class="timeline">
+    {%- for item in site.data.news %}
+    <li>
+      <div class="meta"><span>{{ item.date }}</span><span class="chip chip-{{ item.category }}">{{ item.category }}</span></div>
+      <div>{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</div>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
 
-      {{ author.about | markdownify }}
-    {% endcapture %}
-    {% assign content = content | replace:"<!--author-->", author_x %}
-  {% endif %}
+<section>
+  <h2>Selected publications</h2>
+  {%- assign published = site.data.publications | where_exp: "pub", "pub.status == nil" %}
+  {%- for pub in published %}
+  {% include publication.html pub=pub %}
+  {%- endfor %}
+  <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications</a></p>
+</section>
 
-  <header>
-    <h1 class="page-title">{{ page.title }}</h1>
-    {% include components/message.html text=page.description hide=page.hide_description %}
-  </header>
-
-    <div class="{{ page.content_class }}">
-    {{ content }}
+<section>
+  <h2>Teaching</h2>
+  {%- for t in site.data.teaching %}
+  <div class="pub">
+    <div class="venue">{{ t.term }}</div>
+    <div>
+      <div class="title"><a href="{{ t.url }}">{{ t.course }}</a></div>
+      <div class="authors">{{ t.school }} · {{ t.role }}</div>
+    </div>
   </div>
-</article>
-
-{% include components/dingbat.html %}
-{% include body/comments.html %}
+  {%- endfor %}
+</section>

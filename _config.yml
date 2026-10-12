@@ -1,70 +1,41 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Spyros Pavlatos
 description: >- # this means to ignore newlines until "baseurl:"
   CIS PhD student at University of Pennsylvania
+role: PhD student, Penn CIS
 
-logo: /assets/spyros.jpg
-
-accent_image: /assets/bg.jpg
-accent_color: blue
-
+photo: /assets/img/spyros-480.jpg
+cover_image: /assets/bg.jpg
 favicon: /assets/favicon-16x16.ico
-
-font: Source Sans Pro, sans-serif
-
-google_fonts: Source+Sans+Pro
+cv: /assets/cv/main.pdf
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://spyrospav.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Shown on the cover and in the sidebar, in this order.
 menu:
   - title: About
-    url: /
-  - title: Resume
-    url: /assets/cv/main.pdf
+    url: /about/
   - title: Publications
     url: /publications/
+  - title: CV
+    url: /assets/cv/main.pdf
+
+# Keys into the social links of the author in _data/authors.yml (see _data/social.yml).
+social_icons:
+  - google_scholar
+  - github
+  - x
+  - linkedin
 
 # Build settings
 markdown: kramdown
-remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-seo-tag
-  - jekyll-include-cache
-
-hydejack:
-  dark_mode:
-    dynamic: true
-    always:  false
-
-kramdown:
-  math_engine:         katex
-  math_engine_opts:    {}
 
 permalink: pretty
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

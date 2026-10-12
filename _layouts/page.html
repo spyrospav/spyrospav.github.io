@@ -1,0 +1,25 @@
+---
+layout: base
+---
+<div class="layout">
+  <aside class="sidebar" style="background-image: url('{{ site.cover_image | relative_url }}')">
+    <div class="sidebar-in">
+      <a href="{{ '/' | relative_url }}" class="avatar" title="Home"><img src="{{ site.photo | relative_url }}" alt="{{ site.title }}" width="112" height="112"></a>
+      <div>
+        <div class="name">{{ site.title }}</div>
+        <p class="role">{{ site.role }}</p>
+      </div>
+      <nav>
+        {%- for item in site.menu %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+        {%- endfor %}
+      </nav>
+      {%- assign email = site.data.authors.spyros_pavlatos.social.email | split: "@" %}
+      <div class="email">{{ email[0] }} (at) {{ email[1] | replace: ".", " (dot) " }}</div>
+      {% include social-icons.html %}
+    </div>
+  </aside>
+  <main class="content">
+    {{ content }}
+  </main>
+</div>

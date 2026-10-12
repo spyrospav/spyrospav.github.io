@@ -1,0 +1,24 @@
+# Newest first. category is one of: paper, award, internship, event.
+- date: May 2026
+  category: internship
+  text: I'm spending the summer as an intern at Databricks, working on the Photon query engine.
+
+- date: Aug 2025
+  category: award
+  text: I received the Gerondelis Foundation Graduate Scholarship!
+
+- date: May 2025
+  category: internship
+  text: I'm spending the summer as an intern at AWS Redshift.
+
+- date: Apr 2025
+  category: paper
+  text: 'Our paper ["λ-trim: Optimizing Function Initialization in Serverless Applications With Cost-driven Debloating"](https://dl.acm.org/doi/10.1145/3676642.3736129) was accepted at ASPLOS''25!'
+
+- date: Apr 2024
+  category: paper
+  text: 'Our paper ["MuCache: A General Framework for Caching in Microservice Graphs"](https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran) was accepted at NSDI''24!'
+
+- date: May 2023
+  category: event
+  text: I attended [SSFT23](https://fm.csl.sri.com/SSFT23/) (Twelfth Summer School on Formal Techniques)!

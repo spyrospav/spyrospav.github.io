@@ -1,0 +1,16 @@
+---
+layout: base
+---
+<main class="cover" style="background-image: url('{{ site.cover_image | relative_url }}')">
+  <div class="cover-in">
+    <img src="{{ site.photo | relative_url }}" alt="{{ site.title }}" width="140" height="140">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+    <nav>
+      {%- for item in site.menu %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {%- endfor %}
+    </nav>
+    {% include social-icons.html %}
+  </div>
+</main>
