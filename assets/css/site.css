@@ -102,8 +102,8 @@ a { color: inherit; }
 .cover .social svg { width: 18px; height: 18px; }
 
 /* ---------- sidebar layout ---------- */
-/* Sidebar + text column are centered as a group; the sidebar band grows to the left edge. */
-.layout { display: grid; grid-template-columns: minmax(300px, 1fr) minmax(0, 820px) minmax(0, 1fr); min-height: 100vh; }
+/* Sidebar pinned left; the text column is centered in the space beside it. */
+.layout { display: grid; grid-template-columns: 300px minmax(0, 1fr); min-height: 100vh; }
 .sidebar {
   position: relative;
   color: #fff;
@@ -117,7 +117,7 @@ a { color: inherit; }
   inset: 0;
   background: linear-gradient(180deg, rgba(14, 12, 40, .55), rgba(14, 12, 40, .92) 55%);
 }
-.sidebar-in { position: sticky; top: 0; display: grid; gap: 16px; width: 300px; margin-left: auto; padding: 40px 28px; }
+.sidebar-in { position: sticky; top: 0; display: grid; gap: 16px; padding: 40px 28px; }
 .avatar { width: max-content; border-radius: 50%; }
 .avatar img { display: block; width: 112px; height: 112px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(255, 255, 255, .8); }
 .sidebar .name { font-size: 1.55rem; font-weight: 600; line-height: 1.2; }
@@ -129,7 +129,7 @@ a { color: inherit; }
 .sidebar nav a.active::before { content: "→ "; }
 .sidebar .email { font-family: var(--f-mono); font-size: .78rem; color: rgba(255, 255, 255, .7); overflow-wrap: anywhere; }
 
-.content { min-width: 0; padding: 48px 48px 72px; }
+.content { width: 100%; min-width: 0; max-width: 820px; margin-inline: auto; padding: 48px 48px 72px; }
 .content section + section { margin-top: 40px; }
 .content h2 {
   margin: 0 0 14px;
@@ -197,8 +197,6 @@ a { color: inherit; }
   .sidebar-in {
     position: relative;
     z-index: 1;
-    width: auto;
-    margin-left: 0;
     grid-template-columns: auto minmax(0, 1fr);
     align-items: center;
     gap: 14px 16px;
