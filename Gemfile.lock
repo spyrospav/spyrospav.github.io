@@ -178,9 +178,6 @@ GEM
     jekyll-theme-hacker (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
-    jekyll-theme-hydejack (9.2.1)
-      jekyll (>= 3.8, < 5.0)
-      jekyll-include-cache (~> 0.2)
     jekyll-theme-leap-day (0.2.0)
       jekyll (> 3.5, < 5.0)
       jekyll-seo-tag (~> 2.0)
@@ -218,13 +215,8 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     json (2.13.2)
-    katex (0.10.0)
-      execjs (~> 2.8)
     kramdown (2.4.0)
       rexml
-    kramdown-math-katex (1.0.1)
-      katex (~> 0.4)
-      kramdown (~> 2.0)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -308,11 +300,6 @@ DEPENDENCIES
   bigdecimal (~> 3.2.2)
   github-pages
   http_parser.rb (~> 0.6.0)
-  jekyll-feed (~> 0.6)
-  jekyll-include-cache
-  jekyll-theme-hydejack
-  kramdown-math-katex
-  kramdown-parser-gfm
   liquid (~> 4.0.4)
   tzinfo (~> 1.2)
   tzinfo-data
