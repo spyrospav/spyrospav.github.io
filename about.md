@@ -8,4 +8,4 @@ Hi! I'm Spyros Pavlatos and I am a fifth year PhD student at University of Penns
 
 My research interests are focused around Programming Languages, Compilers and Distributed Systems. More specifically, I am interested in using PL and Compiler techniques to speed up applications on serverless platforms, while maintaining correctness.
 
-Before joining Penn, I completed my undergraduate studies at National Technical University of Athens under the supervision of [Kostis Sagonas]({{ site.data.authors.kostis_sagonas.url }}). My undergraduate [thesis](http://artemis.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/18415/1/thesis.pdf) was focused on developing a test suite for model checking Persistent Memory programs.
+Before joining Penn, I completed my undergraduate studies at National Technical University of Athens under the supervision of [Kostis Sagonas]({{ site.data.authors.kostis_sagonas.url }}). My undergraduate [thesis](https://artemis.ece.ntua.gr/server/api/core/bitstreams/1853c299-6ce1-43da-a32d-2f7c29f9230f/content) was focused on developing a test suite for model checking Persistent Memory programs.

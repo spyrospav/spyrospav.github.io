@@ -20,7 +20,7 @@ layout: page
 
 <section>
   <h2>Selected publications</h2>
-  {%- assign published = site.data.publications | where_exp: "pub", "pub.status == nil" %}
+  {%- assign published = site.data.publications | where_exp: "pub", "pub.status == nil" | where_exp: "pub", "pub.type == nil" %}
   {%- for pub in published %}
   {% include publication.html pub=pub %}
   {%- endfor %}

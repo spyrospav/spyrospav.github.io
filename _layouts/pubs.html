@@ -1,10 +1,32 @@
 ---
 layout: page
 ---
+{%- assign preprints = site.data.publications | where: "status", "under_submission" %}
+{%- assign theses = site.data.publications | where: "type", "thesis" %}
+{%- assign papers = site.data.publications | where_exp: "pub", "pub.status == nil" | where_exp: "pub", "pub.type == nil" %}
+
+{%- if preprints.size > 0 %}
 <section>
-  <h2>Publications</h2>
-  <p class="note"><sup>*</sup> Denotes equal contribution.</p>
-  {%- for pub in site.data.publications %}
+  <h2>Preprints</h2>
+  {%- for pub in preprints %}
   {% include publication.html pub=pub %}
   {%- endfor %}
 </section>
+{%- endif %}
+
+<section>
+  <h2>Publications</h2>
+  <p class="note"><sup>*</sup> Denotes equal contribution.</p>
+  {%- for pub in papers %}
+  {% include publication.html pub=pub %}
+  {%- endfor %}
+</section>
+
+{%- if theses.size > 0 %}
+<section>
+  <h2>Theses</h2>
+  {%- for pub in theses %}
+  {% include publication.html pub=pub %}
+  {%- endfor %}
+</section>
+{%- endif %}

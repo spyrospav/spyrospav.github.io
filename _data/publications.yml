@@ -1,3 +1,5 @@
+# Sections on the Publications page: status: under_submission -> Preprints,
+# type: thesis -> Theses, everything else -> Publications. Newest first within each.
 - year: 2026
   status: under_submission
   title: 'FullStackArena: Evaluating Browser Agents in Dynamic Full-Stack Environments'
@@ -47,3 +49,17 @@
       url: https://www.usenix.org/conference/nsdi24/presentation/zhang-haoran
     - name: Code
       url: https://github.com/eniac/mucache
+
+# Theses: type: thesis, with institution and advisor shown instead of the author list.
+- year: 2022
+  type: thesis
+  title: 'A Test Suite for Model Checking Persistent Memory Programs'
+  authors:
+    - spyros_pavlatos
+  conference: "MEng'22"
+  degree: MEng thesis
+  institution: National Technical University of Athens
+  advisor: kostis_sagonas
+  links:
+    - name: Thesis
+      url: https://artemis.ece.ntua.gr/server/api/core/bitstreams/1853c299-6ce1-43da-a32d-2f7c29f9230f/content
